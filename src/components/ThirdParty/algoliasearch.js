@@ -8,7 +8,7 @@ import { InstantSearch, SearchBox, Hits, Highlight } from 'react-instantsearch-d
 const searchClient = algoliasearch('A50UWSCP7X', '6ae9e3b58c9eea39f6aed70049943a3b');
 
 const Hit = ({ hit }) => (
-  <div>
+  <div style={{textAlign:'center'}}>
     <h2>
       <Highlight attribute="firstname" hit={hit} /> <Highlight attribute="lastname" hit={hit} />
     </h2>
