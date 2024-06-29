@@ -16,7 +16,9 @@
 // // import Blogs from "../src/pages/Blogs";
 // // import Contact from "../src/pages/Contact";
 // // import NoPage from "../src/pages/NoPage";
-import Hubspot from './components/ThirdParty/algoliasearch'
+import Flourish from './components/ThirdParty/flourish'
+import Hubspot from './components/ThirdParty/hubspot'
+import Algolia from './components/ThirdParty/algoliasearch'
 
 
 function App() {
@@ -38,8 +40,9 @@ function App() {
         {/* <UseEffect /> */}
        {/* <UseReducer/> */}
 {/* //       <UseState/>  */}
-
+        <Flourish />
         <Hubspot />
+        <Algolia />
 
     </div>
 
